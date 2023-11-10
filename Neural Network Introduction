@@ -1,0 +1,59 @@
+WHAT IS A NEURAL NETWORK
+
+    A neural network is a computational system inspired by the structure and functioning of the human brain.
+    It consists of interconnected units called neurons, which are organized in layers. Neural networks are used for a
+    wide range of tasks in machine learning and artificial intelligence, including pattern recognition, image and
+    speech recognition, and predictive modeling.
+
+    Components:
+
+    Input Layer: Receives the initial data for processing.
+    Hidden Layers: Intermediate layers that perform computations and feature extractions. The complexity of the model often
+        depends on the number of hidden layers and neurons within them.
+    Output Layer: Produces the final results or predictions.
+    Neurons: Basic computational units that take inputs, process them, and produce an output.
+    Weights and Biases: Parameters that are adjusted during training to optimize the network’s performance.
+    Activation Function: Determines whether a neuron should be activated or not, adding non-linearity to the model.
+
+    Usage:
+        Neural networks can be applied to a variety of data types and tasks. They can be simple, with just one hidden layer
+        (shallow neural networks), or complex, with many hidden layers (deep neural networks, or deep learning).
+
+    In essence, neural networks are powerful tools for modeling complex relationships between inputs and outputs and
+    finding patterns in data.
+
+
+
+WHAT IS A 'TRAINING EXAMPLE'??
+    In machine learning, a "training example" refers to a single instance from your dataset that is used to
+    train the model. Each training example has a set of input features and usually a target output
+    (also known as a label in supervised learning).
+
+    For instance, if you were building a neural network to predict house prices, one training example might consist of:
+    Input features: Number of bedrooms (3), Number of bathrooms (2), Size of the house in square feet (2000)
+    Target output: Price of the house (e.g., $300,000)
+
+    A training dataset is then a collection of many such examples used to teach the neural network what outputs are
+    expected given certain inputs.
+
+
+
+WHAT IS 'TRAINING THE NETWORK'???
+    When we say "the network is being trained," we mean that the neural network is undergoing a process of adjusting
+    its weights and biases (internal parameters) based on the input features and the corresponding target outputs of
+    the training examples. This training process involves the following steps:
+
+    Forward Propagation: The neural network takes an input, or a set of inputs, and passes it through the layers of the
+        network by performing calculations using the current weights. At the end of this process,
+        the network produces an output.
+    Calculating Error: The output from the network is compared to the desired output, and the difference
+        between them is calculated. This difference is the error or loss, and it reflects how well (or poorly)
+        the network is performing.
+    Backpropagation: In this step, the network adjusts its weights and biases to minimize the error. This is
+        typically done using an algorithm like gradient descent. The error is propagated back through the network,
+        and the weights are updated accordingly.
+    Repeat: This process is repeated many times for all the training examples, which may collectively be run through
+        the network numerous times (each cycle through the entire dataset is called an "epoch"). With each pass,
+        the network gets better at producing the correct output until it ideally converges to a state where the
+        error is as low as possible.
+
